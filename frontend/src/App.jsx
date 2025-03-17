@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import LandingPage from "./pages/LandingPage.jsx";
 import Review from "./pages/Review.jsx";
 import { Routes, Route } from "react-router";

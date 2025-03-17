@@ -20,7 +20,7 @@ function Review() {
     prism.highlightAll();
   }, []);
 
-  const API_ENDPOINT = import.meta.REACT_APP_API_ENDPOINT || "http://localhost:3000"; 
+  const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT || "http://localhost:3000";
   async function reviewCode() {
     setLoading(true);
     try {
